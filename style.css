@@ -46,15 +46,9 @@ table {
 	border-spacing: 0;
 }
 
-h3 {
-    font-weight: 700;
-    padding-right: 4px;
-}
-
-section {
+span {
     font-size: 22px;
     display: inline-flex;
-    padding-top: 50px;
 }
 
 
@@ -105,6 +99,10 @@ section {
     justify-content: center;
 }
 
+.lower-banner-content {
+    padding-top: 50px;
+}
+
 .lower-banner p {
     margin-top: 12px;
     font-size: 16px;
@@ -138,6 +136,16 @@ section {
     padding-top:8px;
     font-size: 14px;
     color: var(--darkGrayBlue);
+}
+
+.span-title,
+.span-content-title {
+    font-weight: 700; 
+    color: var(--darkBlue) !important;
+}
+
+.span-title {
+    padding-right: 4px;
 }
 
 /* --------- Attribution --------- */
